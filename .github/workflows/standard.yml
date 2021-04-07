@@ -19,7 +19,7 @@ name: Standard builds
 on: 
   push:
     tags-ignore:
-      - *
+      - '*'
 
 jobs:
   build:
