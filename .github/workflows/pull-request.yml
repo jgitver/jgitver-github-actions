@@ -48,3 +48,4 @@ jobs:
         run: | 
           git status
           git log --no-color --graph --oneline -n 10
+          git tag --list
